@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(48, 52, 53);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.container h1{
+    display: inline-block;
+font-family:monospace;
+font-size: 3rem;
+color: coral;
+text-shadow: .5rem .3rem 1rem crimson;
+}
+#choice{
+    margin-top: 2rem;
+}
+#choice h3{
+    margin: 0rem 1rem;
+    font-size: xx-large;
+}
+#choice div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#choice input{
+    height: 2rem;
+    width: 2rem;
+}
+#Turn , #C{
+    font-size: xx-large;
+    color: rgb(128, 235, 146);
+    text-shadow: .5rem .3rem 1rem crimson;
+}
+#choosed ,#choice{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    color: rgb(240, 204, 204);
+    text-shadow: .5rem .3rem 1rem crimson;
+}
+#Game{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(53, 27, 219); */
+    margin-top: 2rem;
+}
+#Game td{
+    margin: 0;
+    padding: 0;
+    border: 2px solid transparent;
+}
+.btn{
+    width: 10rem;
+    height: 10rem;
+    /* text-align: center; */
+    /* font-size: xx-large; */
+    background-color: transparent;
+    /* border: 2px solid darkslateblue; */
+}
+.display{
+    display: none;
+}
+.animation1{
+    animation: pulse 1s ease-in .1s 5  forwards;
+}
+@keyframes pulse {
+        from{background-color: lightslategray;
+            text-shadow: .5rem .5rem 3rem lightpink;
+            border-radius: 0rem;}
+            to{
+                color: lightseagreen;
+            text-shadow: .5rem 1rem 3rem rgb(224, 60, 84);
+            background-color: lightyellow;
+            border-radius: 10rem;
+        }
+}
+.O{
+    width: 9.7rem;
+    height: 9.7rem;
+}
+#refresh{
+    margin-top: 2rem;
+    color: magenta;
+    background-color: transparent;
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+}
