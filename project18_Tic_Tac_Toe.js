@@ -61,7 +61,7 @@ for (const bttn of btn) {
                 Turn.innerText = "Cross's Turn";
             }
             else if (C == 'Cross') {
-                bttn.innerHTML = `<img class="O" src="X1.jpg">`;
+                bttn.innerHTML = `<img class="O" src="X.jpg">`;
                 X.push(index);
                 console.log(X);
                 C = 'Circle';
