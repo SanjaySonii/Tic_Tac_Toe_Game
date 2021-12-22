@@ -118,5 +118,5 @@ function compare() {
         }
     }
 
-}
+} 
 
