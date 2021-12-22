@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project18_Tic_Tac_Toe</title>
+    <title>Tic_Tac_Toe</title>
     <link rel="stylesheet" href="project18_Tic_Tac_Toe.css">
     <style>
         @media screen and (max-width : 500px) {
